@@ -1,0 +1,166 @@
+{
+    "type": "object",
+    "title": "Basic Information About You",
+    "properties": {
+        "last_name": {
+            "type": "string",
+            "title": "Last Name",
+            "br_required": true
+        },
+        "first_name": {
+            "type": "string",
+            "title": "First Name",
+            "br_required": true
+        },
+        "middle_name": {
+            "type": "string",
+            "title": "Middle Name (optional)"
+        },
+        "birth_date": {
+            "type": "string",
+            "title": "Birthdate MMDDYYYY",
+            "format": "date",
+            "br_required": true
+        },
+        "reg_address_section": {
+            "type": "string",
+            "title": "Montana Residence Address where you are registered to vote",
+            "format": "title"
+        },
+        "reg_address": {
+            "type": "string",
+            "title": "Montana Residence Street Address",
+            "br_required": true
+        },
+        "reg_city": {
+            "type": "string",
+            "title": "City",
+            "br_required": true
+        },
+        "reg_zipcode": {
+            "type": "string",
+            "title": "Zip Code",
+            "format": "zipcode",
+            "br_required": true
+        },
+        "reg_county": {
+            "type": "string",
+            "title": "County where you reside and are registered to vote",
+            "br_required": true
+        },
+        "email": {
+            "type": "string",
+            "title": "Email Address (optional)",
+            "format": "email"
+        },
+        "phone": {
+            "type": "string",
+            "title": "Phone Number (optional)",
+            "format": "phone-us"
+        },
+        "mailing_info_title": {
+            "type": "string",
+            "title": "Mailing Address",
+            "format": "title"
+        },
+        "mail_info": {
+            "type": "string",
+            "title": "This is required if the mailing address differs from residence address",
+            "format": "hidden-field"
+        },
+        "mail_address": {
+            "type": "string",
+            "title": "Street Address"
+        },
+        "mail_city": {
+            "type": "string",
+            "title": "City"
+        },
+        "mail_state": {
+            "type": "string",
+            "title": "State"
+        },
+        "mail_zip": {
+            "type": "string",
+            "title": "Zip Code",
+            "format": "zipcode"
+        },
+        "seasonal_mailing_checkbox": {
+            "type": "boolean",
+            "title": "Check if the mailing address listed above is for part of the year only and if so complete the information below for absentee ballot list only and complete the seasonal mailing address(es) and specify the applicable time periods for the address. "
+        },
+        "seasonal_mailing_address": {
+            "type": "string",
+            "title": "Seasonal Mailing Street Address"
+        },
+        "seasonal_mailing_address_city_state": {
+            "type": "string",
+            "title": "Seasonal Mailing City and State"
+        },
+        "seasonal_zip": {
+            "type": "string",
+            "title": "Seasonal Mailing Zip Code",
+            "format": "zipcode"
+        },
+        "seasonal_period": {
+            "type": "string",
+            "title": "Seasonal Period residing at this address (mm/dd/yyyy-mm/dd/yyyy) "
+        },
+        "ballot_request_options_title": {
+            "type": "string",
+            "title": "Ballot Request Options and Voter Affirmation Section",
+            "format": "title"
+        },
+        "ballot_request_description": {
+            "type": "boolean",
+            "title": "Check one of the following options:",
+            "format": "hidden-field"
+        },
+        "permanent_ballot_list_opt_in": {
+            "type": "boolean",
+            "title": "Yes I request an absentee ballot to be mailed to me for ALL elections in which I am eligible to vote as long as I reside at the address",
+            "format": "checkbox"
+        },
+        "ballot_request_checkbox": {
+            "type": "boolean",
+            "title": "I hereby request an absentee ballot for the upcoming election",
+            "format": "checkbox"
+        },
+        "general_election_request_checkbox": {
+            "type": "boolean",
+            "title": "General Election",
+            "format": "checkbox",
+            "br_required": true
+        },
+        "election_date": {
+            "type": "string",
+            "title": "Election to be held on (date of the election that you are requesting an absentee ballot for)",
+            "format": "date",
+            "br_required": true
+        },
+        "Signature_title": {
+            "type": "string",
+            "title": "By signing below, I understand that I am officially requesting an absentee ballot and affirm that I will have met the 30-day Montana residency requirement before voting my absentee ballot. (Also sign affidavit at bottom of page if requesting due to illness or health emergency.) ",
+            "format": "title"
+        },
+        "voter_info_pamphlet": {
+            "type": "boolean",
+            "title": "Please send current Voter Information Pamphlet if applicable to this election",
+            "format": "checkbox"
+        },
+        "contact_person_ballot_pickup_title": {
+            "type": "string",
+            "title": "Optional- Designate another person to pick up your absentee ballot",
+            "format": "title"
+        },
+        "contact_person_ballot_pickup": {
+            "type": "string",
+            "title": "I, the elector who signed below, hereby designate this person to pick up my absentee ballot. (Full name of elector)"
+        },
+        "signature_designee_date": {
+            "type": "string",
+            "title": "Date Signed by Designee and Elector",
+            "format": "date"
+        }
+    }
+}
