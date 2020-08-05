@@ -1,9 +1,9 @@
 {
-    "top": [
+ "top": [
         "last_name",
         "first_name",
         "middle_name",
-        "birth_date",
+        "birthday",
         "reg_address_section",
         "reg_address",
         "reg_city",

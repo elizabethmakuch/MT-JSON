@@ -14,7 +14,7 @@
         },
         {
             "name": "Birthdate MMDDYYYY",
-            "maps_to": "birth_date"
+            "maps_to": "birthday"
         },
         {
             "name": "Montana Residence Address",
