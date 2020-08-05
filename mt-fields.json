@@ -16,13 +16,13 @@
             "type": "string",
             "title": "Middle Name (optional)"
         },
-        "birth_date": {
+        "birthday": {
             "type": "string",
-            "title": "Birthdate MMDDYYYY",
+            "title": "Date of Birth",
             "format": "date",
             "br_required": true
         },
-        "reg_address_section": {
+        "reg_address_title": {
             "type": "string",
             "title": "Montana Residence Address where you are registered to vote",
             "format": "title"
@@ -54,7 +54,7 @@
             "format": "email"
         },
         "phone": {
-            "type": "string",
+            "type": "number",
             "title": "Phone Number (optional)",
             "format": "phone-us"
         },
@@ -63,27 +63,31 @@
             "title": "Mailing Address",
             "format": "title"
         },
-        "mail_info": {
+        "mail_info_description": {
             "type": "string",
-            "title": "This is required if the mailing address differs from residence address",
+            "title": "This is the address where your absentee ballot will be mailed",
             "format": "hidden-field"
         },
         "mail_address": {
             "type": "string",
             "title": "Street Address"
+            "br_required": true
         },
         "mail_city": {
             "type": "string",
             "title": "City"
+            "br_required": true
         },
         "mail_state": {
             "type": "string",
             "title": "State"
+            "br_required": true
         },
         "mail_zip": {
             "type": "string",
             "title": "Zip Code",
             "format": "zipcode"
+            "br_required": true
         },
         "seasonal_mailing_checkbox": {
             "type": "boolean",
