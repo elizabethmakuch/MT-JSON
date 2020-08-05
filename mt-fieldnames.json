@@ -1,0 +1,60 @@
+{
+    "fieldnames": [
+        {
+            "name": "Last Name",
+            "maps_to": "last_name"
+        },
+        {
+            "name": "First Name",
+            "maps_to": "first_name"
+        },
+        {
+            "name": "Middle Name Optional",
+            "maps_to": "middle_name"
+        },
+        {
+            "name": "Birthdate MMDDYYYY",
+            "maps_to": "birth_date"
+        },
+        {
+            "name": "Montana Residence Address",
+            "maps_to": "reg_address"
+        },
+        {
+            "name": "City",
+            "maps_to": "reg_city"
+        },
+        {
+            "name": "Zip Code",
+            "maps_to": "reg_zipcode"
+        },
+        {
+            "name": "County where you reside and are registered to vote",
+            "maps_to": "reg_county"
+        },
+        {
+            "name": "Email Address Optional",
+            "maps_to": "email"
+        },
+        {
+            "name": "Phone Number Optional",
+            "maps_to": "phone"
+        },
+        {
+            "name": "Mailing Address required if differs from residence address",
+            "maps_to": "mail_address"
+        },
+        {
+            "name": "City and State",
+            "maps_to": "mail_city"
+        },
+        {
+            "name": "City and State",
+            "maps_to": "mail_state"
+        },
+        {
+            "name": "Yes I request an absentee ballot to be mailed to me for ALL elections in which I am eligible to vote as long as I reside at the address",
+            "maps_to": "permanent_ballot_list_opt_in"
+        }
+    ]
+}
